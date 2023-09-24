@@ -35,7 +35,7 @@ services:
       - "./settings.json:/usr/src/api/config/settings.json"
       - "./healthcheck.js:/usr/src/api/healthcheck.js"
   reverse-proxy:
-    command: "caddy reverse-proxy --from $API_HOSTNAME --to api:8080"
+    command: "caddy reverse-proxy --from $API_HOSTNAME --to api:6001"
     container_name: "xbs-reverse-proxy"
     depends_on:
       - "api"
