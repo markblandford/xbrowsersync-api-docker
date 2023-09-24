@@ -1,5 +1,9 @@
 {
   "db": {
     "host": "db"
+  },
+  "status": {
+    "message": "hello blandford.dev",
+    "allowNewSyncs": false
   }
 }
