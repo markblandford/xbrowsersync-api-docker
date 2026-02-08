@@ -50,7 +50,7 @@ secrets:
     file: ./db-username-secret.txt
 
 volumes:
-  xbs-caddy-config:
+  xbs-caddy-config: /home/home-admin/docker-volumes/xbrowser-sync/db/configdb
   xbs-caddy-data:
-  xbs-db-backups:
-  xbs-db-data:
+  xbs-db-backups: /home/home-admin/docker-volumes/xbrowser-sync/db/backups
+  xbs-db-data: /home/home-admin/docker-volumes/xbrowser-sync/db/db
